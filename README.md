@@ -41,3 +41,5 @@ Phew! We've done it all - tweaked settings, installed software, and made you a c
 That's it for now, folks! We hope you're enjoying this script as much as we did creating it. If you run into any issues, don't fret! Just hit that pause button and take a deep breath. We've got your back, amigo! 🤝
 
 Happy computing! 😎🖥️
+
+(Thank you sarcastic, condescending AI)
