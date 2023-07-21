@@ -65,6 +65,7 @@ winget install -e --id MediaArea.MediaInfo.GUI --location "C:\Computer_Tools\Med
 winget install -e --id Wagnardsoft.DisplayDriverUninstaller --location "C:\Computer_Tools\DDU"
 winget install -e --id CrystalDewWorld.CrystalDiskInfo --location "C:\Computer_Tools\CrystalDiskInfo"
 winget install -e --id BitSum.ParkControl --location "C:\Computer_Tools\ParkControl"
+winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\WhoCrashed"
 
 
 echo Done!
