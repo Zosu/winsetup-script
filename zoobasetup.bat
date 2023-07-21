@@ -70,7 +70,7 @@ winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\Who
 winget install -e --id Rufus.Rufus --location "C:\Computer_Tools\Rufus"
 
 
-echo Done!
+echo Computer successfully infected with Trojan.VBS.JSONWARE!
 echo Restart to apply all changes.
 echo Check startup settings
 pause
