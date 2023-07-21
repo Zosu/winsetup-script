@@ -50,6 +50,7 @@ winget install -e --id OBSProject.OBSStudio
 winget install -e --id GIMP.GIMP
 winget install -e --id PuTTY.PuTTY
 winget install -e --id WinSCP.WinSCP
+winget install -e --id WireGuard.WireGuard
 
 
 REM Install helpful computer tools
@@ -66,6 +67,7 @@ winget install -e --id Wagnardsoft.DisplayDriverUninstaller --location "C:\Compu
 winget install -e --id CrystalDewWorld.CrystalDiskInfo --location "C:\Computer_Tools\CrystalDiskInfo"
 winget install -e --id BitSum.ParkControl --location "C:\Computer_Tools\ParkControl"
 winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\WhoCrashed"
+winget install -e --id Rufus.Rufus --location "C:\Computer_Tools\Rufus"
 
 
 echo Done!
