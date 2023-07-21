@@ -64,6 +64,7 @@ winget install -e --id HandBrake.HandBrake --location "C:\Computer_Tools\HandBra
 winget install -e --id MediaArea.MediaInfo.GUI --location "C:\Computer_Tools\MediaInfo"
 winget install -e --id Wagnardsoft.DisplayDriverUninstaller --location "C:\Computer_Tools\DDU"
 winget install -e --id CrystalDewWorld.CrystalDiskInfo --location "C:\Computer_Tools\CrystalDiskInfo"
+winget install -e --id BitSum.ParkControl --location "C:\Computer_Tools\ParkControl"
 
 
 echo Done!
