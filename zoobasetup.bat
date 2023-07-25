@@ -51,6 +51,7 @@ winget install -e --id GIMP.GIMP
 winget install -e --id PuTTY.PuTTY
 winget install -e --id WinSCP.WinSCP
 winget install -e --id WireGuard.WireGuard
+winget install -e --id CodeSector.TeraCopy 
 
 
 REM Install helpful computer tools
@@ -70,6 +71,7 @@ winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\Who
 winget install -e --id Rufus.Rufus --location "C:\Computer_Tools\Rufus"
 winget install -e --id MoritzBunkus.MKVToolNix --location "C:\Computer_Tools\MKVToolNix"
 winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\BlueScreenView"
+
 
 
 echo Done!
