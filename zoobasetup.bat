@@ -69,6 +69,7 @@ winget install -e --id BitSum.ParkControl --location "C:\Computer_Tools\ParkCont
 winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\WhoCrashed"
 winget install -e --id Rufus.Rufus --location "C:\Computer_Tools\Rufus"
 winget install -e --id MoritzBunkus.MKVToolNix --location "C:\Computer_Tools\MKVToolNix"
+winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\BlueScreenView"
 
 
 echo Done!
