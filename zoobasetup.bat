@@ -68,6 +68,7 @@ winget install -e --id Wagnardsoft.DisplayDriverUninstaller --location "C:\Compu
 winget install -e --id CrystalDewWorld.CrystalDiskInfo --location "C:\Computer_Tools\CrystalDiskInfo"
 winget install -e --id BitSum.ParkControl --location "C:\Computer_Tools\ParkControl"
 winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\WhoCrashed"
+winget install -e --id Resplendence.LatencyMon --location "C:\Computer_Tools\LatencyMon"
 winget install -e --id Rufus.Rufus --location "C:\Computer_Tools\Rufus"
 winget install -e --id MoritzBunkus.MKVToolNix --location "C:\Computer_Tools\MKVToolNix"
 winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\BlueScreenView"
