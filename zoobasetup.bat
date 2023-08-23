@@ -14,8 +14,14 @@ REM Disable mouse enhanced pointer precision
 echo Disabling mouse enhanced pointer precision
 reg add "HKCU\Control Panel\Mouse" /v MouseSpeed /t REG_SZ /d 0 /f
 
+REM Disable keyboard accessibility shortcuts
+reg add "HKCU\Control Panel\Accessibility\StickyKeys" /v Flags /t REG_SZ /d 506 /f
+reg add "HKCU\Control Panel\Accessibility\Keyboard Response" /v Flags /t REG_SZ /d 122 /f
+reg add "HKCU\Control Panel\Accessibility\ToggleKeys" /v Flags /t REG_SZ /d 58 /f
+echo Sticky Keys and Filter Keys shortcuts and Toggle Keys have been disabled.
+
 REM Change file explorer settings for better security and convenience
-echo Changing explorer settings for convenience and security
+echo Changing explorer settings for convenience and security (Default launch to This PC, show hidden files, show all file extensions)
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v LaunchTo /t REG_DWORD /d 1 /f
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v Hidden /t REG_DWORD /d 1 /f
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
