@@ -57,7 +57,7 @@ winget install -e --id GIMP.GIMP
 winget install -e --id PuTTY.PuTTY
 winget install -e --id WinSCP.WinSCP
 winget install -e --id WireGuard.WireGuard
-winget install -e --id CodeSector.TeraCopy 
+REM winget install -e --id CodeSector.TeraCopy 
 
 
 REM Install helpful computer tools
