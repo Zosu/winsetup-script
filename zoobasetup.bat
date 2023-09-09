@@ -35,8 +35,8 @@ for /f "skip=2 tokens=3*" %%i in ('netsh interface show interface') do (
 
 REM Install Browsers
 echo Installing Browsers
-winget install -e --id Google.Chrome
-winget install -e --id Mozilla.Firefox
+winget install -e --id Google.Chrome -i
+winget install -e --id Mozilla.Firefox -i
 
 REM Install Packages
 echo Installing software Packages
@@ -57,7 +57,7 @@ winget install -e --id GIMP.GIMP
 winget install -e --id PuTTY.PuTTY
 winget install -e --id WinSCP.WinSCP
 winget install -e --id WireGuard.WireGuard
-REM winget install -e --id CodeSector.TeraCopy 
+:: winget install -e --id CodeSector.TeraCopy 
 
 
 REM Install helpful computer tools
@@ -80,7 +80,9 @@ winget install -e --id MoritzBunkus.MKVToolNix --location "C:\Computer_Tools\MKV
 winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\BlueScreenView"
 winget install -e --id Maxon.CinebenchR23 --location "C:\Computer_Tools\CinebenchR23"
 
-
+REM Installations that need options selected
+winget install -e --id NickeManarin.ScreenToGif -i
+winget install -e --id Logitech.LGS -i
 
 echo Done!
 echo Restart to apply all changes.
