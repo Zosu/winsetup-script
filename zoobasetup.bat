@@ -35,7 +35,7 @@ for /f "skip=2 tokens=3*" %%i in ('netsh interface show interface') do (
 
 REM Install Browsers
 echo Installing Browsers
-winget install -e --id Google.Chrome -i
+:: winget install -e --id Google.Chrome -i
 winget install -e --id Mozilla.Firefox -i
 
 REM Install Packages
