@@ -79,6 +79,7 @@ winget install -e --id Rufus.Rufus --location "C:\Computer_Tools\Rufus"
 winget install -e --id MoritzBunkus.MKVToolNix --location "C:\Computer_Tools\MKVToolNix"
 winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\BlueScreenView"
 winget install -e --id Maxon.CinebenchR23 --location "C:\Computer_Tools\CinebenchR23"
+winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellExView"
 
 REM Installations that need options selected
 winget install -e --id NickeManarin.ScreenToGif -i
