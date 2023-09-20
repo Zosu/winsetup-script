@@ -1,6 +1,6 @@
-# Zooba's Simple Windows Setup Script
+# Simple Windows Setup Script
 
-Hey there, tech-savvy pals! Welcome to Zooba's super-duper Windows setup script! 🚀🎉 Now, before we dive in, let me tell ya, this script ain't for the faint of heart. You better have those admin permissions locked and loaded, or else you'll be crying for help like a baby. 🍼
+Hey there, tech-savvy pals! Welcome to my super-duper Windows setup script! 🚀🎉 Now, before we dive in, let me tell ya, this script ain't for the faint of heart. You better have those admin permissions locked and loaded, or else you'll be crying for help like a baby. 🍼
 
 ## What's This Script About?
 
