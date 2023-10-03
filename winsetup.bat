@@ -84,6 +84,7 @@ winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellEx
 REM Installations that need options selected
 winget install -e --id NickeManarin.ScreenToGif -i
 winget install -e --id Logitech.LGS -i
+winget install -e --id Parsec.Parsec -i
 
 echo Done!
 echo Restart to apply all changes.
