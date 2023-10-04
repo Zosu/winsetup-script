@@ -82,6 +82,7 @@ winget install -e --id Maxon.CinebenchR23 --location "C:\Computer_Tools\Cinebenc
 winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellExView"
 
 REM Installations that need options selected
+winget install -e --id Insecure.Nmap -i
 winget install -e --id NickeManarin.ScreenToGif -i
 winget install -e --id Logitech.LGS -i
 winget install -e --id Parsec.Parsec -i
