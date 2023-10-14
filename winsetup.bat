@@ -80,6 +80,7 @@ winget install -e --id MoritzBunkus.MKVToolNix --location "C:\Computer_Tools\MKV
 winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\BlueScreenView"
 winget install -e --id Maxon.CinebenchR23 --location "C:\Computer_Tools\CinebenchR23"
 winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellExView"
+winget install -e --id RandomEngy.Vidcoder --location "C:\Computer_Tools\VidCoder"
 
 REM Installations that need options selected
 winget install -e --id Insecure.Nmap -i
