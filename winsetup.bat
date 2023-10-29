@@ -81,6 +81,7 @@ winget install -e --id NirSoft.BlueScreenView --location "C:\Computer_Tools\Blue
 winget install -e --id Maxon.CinebenchR23 --location "C:\Computer_Tools\CinebenchR23"
 winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellExView"
 winget install -e --id RandomEngy.Vidcoder --location "C:\Computer_Tools\VidCoder"
+winget install -e --id CalcProgrammer1.OpenRGB --location "C:\Computer_Tools\OpenRGB"
 
 REM Installations that need options selected
 winget install -e --id Insecure.Nmap -i
