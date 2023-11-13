@@ -83,6 +83,9 @@ winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellEx
 winget install -e --id RandomEngy.VidCoder --location "C:\Computer_Tools\VidCoder"
 winget install -e --id CalcProgrammer1.OpenRGB --location "C:\Computer_Tools\OpenRGB"
 
+REM Set environment variables for cmd
+setx /M PATH "%PATH%;C:\Computer_Tools\MKVToolNix"
+
 REM Installations that need options selected
 winget install -e --id Insecure.Nmap -i
 winget install -e --id NickeManarin.ScreenToGif -i
