@@ -82,8 +82,9 @@ winget install -e --id Maxon.CinebenchR23 --location "C:\Computer_Tools\Cinebenc
 winget install -e --id NirSoft.ShellExView --location "C:\Computer_Tools\ShellExView"
 winget install -e --id RandomEngy.VidCoder --location "C:\Computer_Tools\VidCoder"
 winget install -e --id CalcProgrammer1.OpenRGB --location "C:\Computer_Tools\OpenRGB"
+winget install -e --id Gyan.FFmpeg --location "C:\Computer_Tools\FFmpeg"
 
-REM Set environment variables for cmd
+REM Set environment path variables
 setx /M PATH "%PATH%;C:\Computer_Tools\MKVToolNix"
 
 REM Installations that need options selected
