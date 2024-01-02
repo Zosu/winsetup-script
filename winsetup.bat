@@ -59,6 +59,9 @@ winget install -e --id WinSCP.WinSCP
 :: winget install -e --id WireGuard.WireGuard
 :: winget install -e --id CodeSector.TeraCopy 
 
+REM Install misc software
+winget install -e --id Plex.Plex
+
 
 REM Install helpful computer tools
 echo making folder for computer tools
