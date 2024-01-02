@@ -61,7 +61,7 @@ winget install -e --id WinSCP.WinSCP
 
 REM Install misc software
 winget install -e --id Plex.Plex
-
+winget install -e --id Obsidian.Obsidian
 
 REM Install helpful computer tools
 echo making folder for computer tools
