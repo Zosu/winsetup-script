@@ -47,6 +47,8 @@ echo Installing gaming software
 winget install -e --id Valve.Steam
 winget install -e --id Discord.Discord
 winget install -e --id Mojang.MinecraftLauncher
+winget install -e --id EpicGames.EpicGamesLauncher
+winget install -e --id HeroicGamesLauncher.HeroicGamesLauncher
 
 REM Install misc tools
 echo Installing misc tools
