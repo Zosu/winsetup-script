@@ -77,6 +77,7 @@ winget install -e --id HandBrake.HandBrake --location "C:\Computer_Tools\HandBra
 winget install -e --id MediaArea.MediaInfo.GUI --location "C:\Computer_Tools\MediaInfo"
 winget install -e --id Wagnardsoft.DisplayDriverUninstaller --location "C:\Computer_Tools\DDU"
 winget install -e --id CrystalDewWorld.CrystalDiskInfo --location "C:\Computer_Tools\CrystalDiskInfo"
+winget install -e --id CrystalDewWorld.CrystalDiskMark --location "C:\Computer_Tools\CrystalDiskMark"
 winget install -e --id BitSum.ParkControl --location "C:\Computer_Tools\ParkControl"
 winget install -e --id Resplendence.WhoCrashed --location "C:\Computer_Tools\WhoCrashed"
 winget install -e --id Resplendence.LatencyMon --location "C:\Computer_Tools\LatencyMon"
