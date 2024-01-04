@@ -58,6 +58,8 @@ winget install -e --id OBSProject.OBSStudio
 winget install -e --id GIMP.GIMP
 winget install -e --id PuTTY.PuTTY
 winget install -e --id WinSCP.WinSCP
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Proton.ProtonDrive
 :: winget install -e --id WireGuard.WireGuard
 :: winget install -e --id CodeSector.TeraCopy 
 
