@@ -101,6 +101,7 @@ winget install -e --id Insecure.Nmap -i
 winget install -e --id NickeManarin.ScreenToGif -i
 winget install -e --id Logitech.LGS -i
 winget install -e --id Parsec.Parsec -i
+winget install -e --id FoldingAtHome.FoldingAtHome -i
 
 echo Done!
 echo Restart to apply all changes.
