@@ -10,6 +10,10 @@ if %errorLevel% == 0 (
     exit
 )
 
+REM install winget
+echo Install winget
+powershell -command "Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe"
+
 REM Disable mouse enhanced pointer precision
 echo Disabling mouse enhanced pointer precision
 reg add "HKCU\Control Panel\Mouse" /v MouseSpeed /t REG_SZ /d 0 /f
@@ -32,6 +36,8 @@ for /f "skip=2 tokens=3*" %%i in ('netsh interface show interface') do (
     netsh interface ipv4 set dnsservers "%%j" static 1.1.1.1 primary
     netsh interface ipv4 add dnsservers "%%j" 1.0.0.1 index=2
 )
+
+timeout 5
 
 REM Install Browsers
 echo Installing Browsers
@@ -66,6 +72,9 @@ winget install -e --id Proton.ProtonDrive
 REM Install misc software
 winget install -e --id Plex.Plex
 winget install -e --id Obsidian.Obsidian
+
+REM New Windows Terminal
+winget install -e --id 9N0DX20HK701
 
 REM Install helpful computer tools
 echo making folder for computer tools
