@@ -113,4 +113,5 @@ REM Installations that need options selected
 @REM winget install -e --id Parsec.Parsec -i
 @REM winget install -e --id FoldingAtHome.FoldingAtHome -i
 
+sfc /scannow
 echo winsetup.bat done!
