@@ -30,6 +30,9 @@ REM Disable windows search highlights
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v EnableDynamicContentInWSB /t REG_DWORD /d 0 /f
 
+REM Revert to old context menu (Restore win 11 context menu by deleting this key)
+reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f
+
 REM Set DNS settings
 echo Setting DNS settings to cloudflare's DNS
 for /f "skip=2 tokens=3*" %%i in ('netsh interface show interface') do (
